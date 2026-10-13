@@ -1,0 +1,5 @@
+Model,Best Params,CV F1 (weighted)
+MultinomialNB,{'clf__alpha': 0.1},0.8633
+ComplementNB,{'clf__alpha': 0.1},0.8659
+LinearSVC,{'clf__C': 1.0},0.8807
+SVC (RBF),"{'clf__C': 10.0, 'clf__gamma': 'scale'}",0.8821

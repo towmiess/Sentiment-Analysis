@@ -1,0 +1,17 @@
+Model,Actual,Predicted,Count
+MultinomialNB,negative,negative,246
+MultinomialNB,negative,positive,54
+MultinomialNB,positive,negative,63
+MultinomialNB,positive,positive,237
+ComplementNB,negative,negative,249
+ComplementNB,negative,positive,51
+ComplementNB,positive,negative,55
+ComplementNB,positive,positive,245
+LinearSVC,negative,negative,247
+LinearSVC,negative,positive,53
+LinearSVC,positive,negative,53
+LinearSVC,positive,positive,247
+SVC (RBF),negative,negative,255
+SVC (RBF),negative,positive,45
+SVC (RBF),positive,negative,58
+SVC (RBF),positive,positive,242

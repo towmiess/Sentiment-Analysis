@@ -1,0 +1,5 @@
+Model,Accuracy,F1 (weighted),F1 (macro),Train (s),Predict (ms),Family
+LinearSVC,0.8942,0.8866,0.6976,0.19,19.6,SVM
+SVC (RBF),0.8925,0.8804,0.6667,4.44,822.5,SVM
+MultinomialNB,0.8758,0.8654,0.6639,0.15,13.8,Naive Bayes
+ComplementNB,0.8742,0.8647,0.6594,0.19,35.7,Naive Bayes

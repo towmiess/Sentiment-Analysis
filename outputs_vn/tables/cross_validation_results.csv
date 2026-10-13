@@ -1,0 +1,5 @@
+Model,Accuracy (mean ± std),F1-weighted (mean ± std),F1-macro (mean ± std)
+MultinomialNB,0.8800 ± 0.0095,0.8665 ± 0.0093,0.6406 ± 0.0134
+ComplementNB,0.8808 ± 0.0090,0.8684 ± 0.0097,0.6518 ± 0.0188
+LinearSVC,0.8993 ± 0.0068,0.8889 ± 0.0077,0.6826 ± 0.0298
+SVC (RBF),0.8998 ± 0.0044,0.8848 ± 0.0035,0.6446 ± 0.0181

@@ -1,0 +1,38 @@
+# ── Python ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ── Virtual environment ────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Jupyter ────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Matplotlib cache ───────────────────────────────────────
+.matplotlib/
+
+# ── Dataset: tải lại được từ nguồn, không cần commit ───────
+data/raw/*.zip
+data/raw/*.tar.gz
+data/raw/*.tgz
+data/raw/*.ft.txt
+
+# ── Logs & temp ────────────────────────────────────────────
+*.log
+*.tmp
+_dump_*.py
+_sync_*.py
+_validate_*.py
+_verify_*.py
+
+# ── OS / Editor ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
