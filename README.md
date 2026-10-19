@@ -1,19 +1,13 @@
 # Phân tích Cảm xúc Khách hàng: SVM vs Naive Bayes
 
 > **Sentiment Analysis — Support Vector Machine vs Naive Bayes**
-> Bài tập môn học / báo cáo: so sánh hai họ mô hình học máy cổ điển trên bài toán
-> phân loại cảm xúc đánh giá khách hàng (tích cực / tiêu cực [/ trung lập]).
->
-> 📘 **Dành cho người dùng / khách hàng:** xem cẩm nang cài đặt – chạy – thực nghiệm
-> chi tiết tại **[`HUONG_DAN.md`](HUONG_DAN.md)**.
-
 ---
 
 ## 🎯 Tổng quan
 
-Pipeline hoàn chỉnh từ **tải dữ liệu → EDA → tiền xử lý → vector hóa TF-IDF →
+Pipeline **tải dữ liệu → EDA → tiền xử lý → vector hóa TF-IDF →
 huấn luyện 4 mô hình → đánh giá (Accuracy/F1/Confusion Matrix/Cross-Validation/
-Tuning) → trực quan hóa → demo inference**. Hai họ mô hình được so sánh:
+Tuning) → trực quan hóa → demo inference**. Hai mô hình được so sánh:
 
 | Họ | Mô hình | Đặc điểm |
 |---|---|---|
@@ -42,17 +36,17 @@ Hỗ trợ thêm IMDB (2 lớp), Amazon (3 lớp) và UIT Vietnamese Students' F
 ```
 sentiment-analysis/
 ├── sentiment_svm_nb.py            # pipeline CLI (imdb/amazon/uci/vn + demo)
-├── notebooks/sentiment_analysis.ipynb   # notebook phân tích từng bước
+├── notebooks/sentiment_analysis.ipynb   
 ├── docs/
 │   ├── theory.md                  # lý thuyết SVM + NB + kết quả chi tiết
-│   ├── report-outline.md          # outline báo cáo môn học
+│   ├── report-outline.md          # outline 
 │   └── real-data-results.md       # kết quả thực nghiệm (tiếng Anh)
 ├── data/raw/                      # dataset gốc (CSV + nguồn tải)
 ├── outputs/
 │   ├── figures/                   # EDA, so sánh, confusion, features, word cloud
 │   └── tables/                    # comparison, cross-validation, tuning CSV
 ├── requirements.txt
-└── SKILL.md                       # hướng dẫn toàn diện (đọc trước)
+└── SKILL.md                       
 ```
 
 ## ⚙️ Cài đặt
@@ -104,12 +98,11 @@ Pipeline tự sinh các file trong `outputs/`:
 
 ## 📚 Tài liệu & trích dẫn
 
-- `HUONG_DAN.md` — cẩm nang cài đặt, chạy & thực nghiệm cho người dùng (đọc trước).
 - `SKILL.md` — hướng dẫn toàn diện (đọc trước).
 - `docs/theory.md` — cơ sở lý thuyết SVM & Naive Bayes.
-- `docs/report-outline.md` — cấu trúc báo cáo môn học gợi ý.
-- `docs/real-data-results.md` — kết quả thực nghiệm và giới hạn diễn giải.
-
+- `docs/report-outline.md` — cấu trúc báo cáo.
+- `docs/real-data-results.md` — kết quả thực nghiệm
+  
 **Dataset:** Kotzias, D., Denil, M., de Freitas, N., & Smyth, P. (2015).
 *From Group to Individual Labels Using Deep Features*. KDD 2015.
 UCI Machine Learning Repository, DOI: `10.24432/C57604`.
